@@ -1,65 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>navigation</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-
-<nav class="navbar navbar-expand-sm navbar-light bg-light ">
-    <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-        <div class="collapse navbar-collapse text-center" id="navbarsExample11">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="glitch.html">Glitch</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="meme.html">Meme</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="minecraft.html">Minecraft</a>
-                </li>
-				<li class="nav-item">
-                    <a class="nav-link" href="3d.html">3D Print</a>
-                </li>
-				<li class="nav-item">
-                    <a class="nav-link" href="netart.html">Net Art</a>
-                </li>
-				<li class="nav-item">
-                    <a class="nav-link" href="code-as-art.html">Code Art</a>
-                </li>
-				
-            </ul>
-        </div>
-    </div>
-</nav>
-
-
-<h1 class="display-4 text-center">Code as Art</h1>
-<div class="container-fluid">
-<br>
-<center>
-<iframe src="code-as-art/index.html" style="height:604px;width:604px;"></iframe>
-</center>
-<br>
-<pre>
 function setup() {
 createCanvas(600, 600);
 angleMode(DEGREES);
@@ -248,7 +186,3 @@ rect(300,442,106,45);
 fill(0);
 rect(330,473,33,1);
 }
-</pre>
-
-</body>
-</html>
